@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title> nao sei fazer questao4 empurrada socorro</title>
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<script type="text/javascript" src="javaS/questao4java.js"></script>
+<body>
+	<form method="get" action="envio_dados.php">
+		<input type="text" class="input_text" name="nome" id="name">
+		<input type="text" class="input_text" name="endereco" id="endereco">
+		<button onClick="enviando()" class="btn btn-success">enviado</button> 
+	</form>
+
+	<div class="container fluid">
+		<div class="row">
+			<div class="col-sm-12">
+				<table class="table stripped" id="tabeladedados">
+					<tr>
+						<th>id</th>
+						<th>Nome</th>
+						<th>Endereço</th>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
